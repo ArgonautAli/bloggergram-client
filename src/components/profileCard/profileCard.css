@@ -1,0 +1,98 @@
+* {
+    color: #212427;
+}
+
+@media (min-width: 900px) {
+    .profileCard-container {
+        margin-top: 10%;
+        display: flex;
+        width: 15vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* border: 1px solid red; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 16px;
+        /* height: 50vh; */
+        padding: 16px;
+        padding-top: 24PX;
+    }
+
+    .profile-detailContainer {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .profile-placeholder {
+        width: 36px;
+        height: 36px;
+        border-radius: 99px;
+        background-color: #356d65;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .profile-nameDetails {
+        display: flex;
+        flex-direction: column;
+        row-gap: -3px;
+    }
+
+    .profile-fullName {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .profile-userName {
+        color: #356d65;
+        font-weight: 600;
+    }
+
+    .profile-logout {
+        margin: 8px 18px 8px 18px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        /* display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        background-color: #bd3b1b; */
+        /* width: fit-content; */
+        color: #fd6c5d;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #fd6c5d;
+        cursor: pointer;
+        align-items: baseline;
+    }
+
+
+
+    .logout-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .auth-button {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 12px 8px 12px;
+        border-radius: 8px;
+        background-color: #356d65;
+        width: fit-content;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: baseline;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    .profileCard-container {
+        display: none;
+    }
+}

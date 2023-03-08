@@ -1,0 +1,13 @@
+@media (min-width:900px) {
+    .message-container {
+        display: flex;
+        width: 20vw;
+        border: 1px solid red;
+    }
+}
+
+@media(max-width:900px) {
+    .message-container {
+        display: none
+    }
+}

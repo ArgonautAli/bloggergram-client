@@ -1,0 +1,115 @@
+* {
+    color: #212427;
+}
+
+@media (min-width: 900px) {
+    .sideBar-container {
+        display: flex;
+        width: 15vw;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 16px;
+        /* height: 50vh; */
+        padding: 16px;
+        padding-top: 24PX;
+    }
+
+    .sidebar-options {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 12px 8px 12px;
+        border-radius: 8px;
+        width: fit-content;
+        cursor: pointer;
+        color: #313131;
+        align-items: baseline;
+    }
+
+    .sidebar-optionsButton {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 12px 8px 12px;
+        border-radius: 8px;
+        background-color: #356d65;
+        width: fit-content;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: baseline;
+    }
+
+    .sidebar-options:hover {
+        background-color: #d1d1d1;
+    }
+
+    .sidebar-optionsButtonRes {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .sideBar-container {
+        display: flex;
+        justify-content: center;
+        width: 15vw;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid red; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 16px;
+        /* height: 50vh; */
+        /* padding: 16px; */
+        /* padding: 25%; */
+        padding-top: 24PX;
+    }
+
+    .sidebar-options {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 0px 8px 0px;
+        border-radius: 8px;
+        width: fit-content;
+        cursor: pointer;
+        color: #313131;
+        align-items: baseline;
+    }
+
+    .sidebar-optionsButton {
+        display: none;
+        font-size: 18px;
+        font-weight: 600;
+        /* padding: 8px 12px 8px 12px; */
+        padding-top: 12px;
+        border-radius: 8px;
+        background-color: #356d65;
+        width: fit-content;
+        color: #ffffff;
+        cursor: pointer;
+        align-items: baseline;
+    }
+
+    .sidebar-options:hover {
+        background-color: #d1d1d1;
+    }
+
+    .sidebar-textResp {
+        display: none;
+    }
+
+    .sidebar-optionsButtonRes {
+        font-size: 18px;
+        font-weight: 600;
+        /* padding: 8px 12px 8px 12px; */
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-radius: 8px;
+        /* background-color: #356d65; */
+        width: fit-content;
+        /* color: #ffffff; */
+        cursor: pointer;
+        align-items: baseline;
+    }
+}
