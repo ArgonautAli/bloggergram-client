@@ -4,7 +4,9 @@
         flex-direction: column;
         /* border: 1px solid red; */
         padding: 18px;
-        background-color: #fefeff;
+        background-color: #f5f5f5;
+        margin-top: 20px;
+        border-radius: 16px;
     }
 
     .upper-row {
@@ -23,7 +25,7 @@
         width: 36px;
         height: 36px;
         border-radius: 99px;
-        background-color: blueviolet;
+        background-color: #356d65;
         color: #fefeff;
         align-items: center;
         vertical-align: middle;
@@ -52,7 +54,8 @@
         text-align: center;
         height: 250px;
         width: 100%;
-        background-color: #ffbb21;
+        background-color: #356d65;
+        color: #f5f5f5;
     }
 
     .post-info-container {
@@ -69,4 +72,97 @@
         align-items: center;
         font-size: 14px;
     }
+
+    .options-dots {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .options-box {
+        right: 0;
+        background: #f5f5f5;
+        border: 1px solid black;
+        padding: 8px 16px 8px 16px;
+        /* row-gap: 4px; */
+        border-radius: 8px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        padding: 18px;
+        background-color: #f5f5f5;
+        margin-top: 20px;
+        border-radius: 16px;
+
+    }
+
+    .upper-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .upper-img-name-container {
+        display: flex;
+        column-gap: 6px;
+    }
+
+    .name-circle {
+        display: flex;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 99px;
+        background-color: #356d65;
+        color: #fefeff;
+        align-items: center;
+        vertical-align: middle;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .upper-name-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upper-username {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .post-text {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: center;
+        padding: 12px;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        height: 250px;
+        width: 100%;
+        background-color: #356d65;
+        color: #f5f5f5;
+    }
+
+    .post-info-container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .icon-container {
+        justify-content: space-between;
+    }
+
+    .info-container {
+        align-items: center;
+        font-size: 14px;
+    }
+
 }

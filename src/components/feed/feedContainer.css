@@ -1,27 +1,38 @@
 @media (min-width: 900px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
     .feed-container {
         display: flex;
         width: 30vw;
         flex-direction: column;
         /* border: 1px solid red; */
         /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        border-radius: 16px;
-        height: 90vh;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        /* border-radius: 16px; */
+        height: 100vh;
+        overflow-y: auto;
         /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     }
 }
 
 @media (max-width: 900px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
     .feed-container {
         display: flex;
         flex-direction: column;
-        width: 60vw;
+        width: 70vw;
         /* border: 1px solid red; */
         /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        border-radius: 16px;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        /* border-radius: 16px; */
         height: 90vh;
+        overflow-y: auto;
+
         /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     }
 }

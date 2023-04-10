@@ -1,0 +1,29 @@
+.user-container {
+    display: flex;
+
+    padding: 16px;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #356d65;
+}
+
+.user-message-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+}
+
+.latest-mssg {
+    font-weight: 200;
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

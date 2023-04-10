@@ -3,3 +3,27 @@
     border: 1px solid red;
     min-height: 85vh;
 } */
+
+@media (min-width: 900px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-page {
+        display: flex;
+        column-gap: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-page {
+        display: flex;
+        column-gap: 5%;
+    }
+}

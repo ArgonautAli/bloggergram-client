@@ -1,0 +1,10 @@
+.comment-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-text-box {
+    background-color: #e2e2e2;
+    padding: 8px;
+    border-radius: 8px;
+}
