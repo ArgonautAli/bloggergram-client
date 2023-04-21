@@ -76,7 +76,6 @@ function Messenger({
       setRecievedMessages((recievedMessages) => [...recievedMessages, data]);
     }
   }
-
   return (
     <>
       <div
